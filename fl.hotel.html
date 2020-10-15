@@ -1,0 +1,417 @@
+<html>
+<head>
+<style type="text"/css">
+#flho
+{
+border:5px solid gray;
+}
+</style>
+<script>
+function ValidateContactForm()
+{
+    var from = document.ContactForm.t1;
+    var to = document.ContactForm.t2;
+   
+    if (from.value == "")
+    {
+        window.alert("Please enter From details.");
+        from.focus();
+        return false;
+    }
+    
+    if (to.value == "")
+    {
+        window.alert("Please enter To details.");
+        to.focus();
+        return false;
+    }
+}
+</script> 
+<title>flights+hotels</title>
+</head>
+<body>
+
+
+<h1><b>Book Fligh Plus Hotels Combo & Save More!!</b></h1>
+
+<form  method="post"; name="ContactForm"; onsubmit="return ValidateContactForm()";
+ action="find.html" style="border:3px inset; width:700px; height:390px; background-color:#FFF0F5;">
+<table >
+<div id="flho">
+<tr>
+<br>
+<br>
+<td>From:
+<input type="text" name="t1" value="">
+<td>To:
+<input type="text" name="t2" value=""><br>
+</td>
+</tr>
+</table>
+
+<table>
+
+<tr>
+<td>Departure:</td>
+<td>
+</tr>
+<tr>
+<td>Day
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+<td>Month
+<select>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="apr">apr</option>
+<option value="may">may</option>
+<option value="jun">jun</option>
+<option value="jul">jul</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<td>Year
+<select>
+<option valuer="2015">2015</option>
+<option valuer="2016">2016</option>
+</select>
+</tr></table>
+<table ><br><br>
+
+<tr>
+<td>Return:</td>
+<td>
+</tr>
+<tr>
+<td>Day
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+<td>Month
+<select>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="apr">apr</option>
+<option value="may">may</option>
+<option value="jun">jun</option>
+<option value="jul">jul</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<td>Year
+<select>
+<option valuer="2015">2015</option>
+<option valuer="2016">2016</option>
+</select>
+</tr></table><br><br>
+<table>
+<td>Rooms:
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select><br>
+</td>
+<table> 
+<tr>
+<td>
+<tr>
+<td>Adults(12+yrs)&nbsp&nbsp</td>
+   <td>Childrens(2-11yrs)&nbsp&nbsp
+       <td>Infants(0-2yrs)&nbsp&nbsp
+</tr>
+<tr>
+<td><select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<td><select>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<td><select>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</tr></select>
+</table><br>
+<table>
+<tr><br>
+<button style="background-color:#DDA0DD;width:200;height:50;align:center"><b> Search Flights+hotel</b></button>
+</tr>
+</table>
+<br>
+<br>
+</form>
+<br><br>
+<form name="ContactForm"; style="border:3px inset; width:700px; height:390px; background-color:#E0FFFF;" onsubmit="return ValidateContactForm();">
+<table>
+<tr>
+<td>city:
+<input type="text" name="t2"><br>
+</td></tr></table><br>
+<table>
+<tr>
+<td>Check In:</td>
+<td>
+</tr>
+<tr>
+<td>Day
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+<td>Month
+<select>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="apr">apr</option>
+<option value="may">may</option>
+<option value="jun">jun</option>
+<option value="jul">jul</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<td>Year
+<select>
+<option valuer="2015">2015</option>
+<option valuer="2016">2016</option>
+</select>
+</td></tr></table><br>
+<table>
+<tr>
+<td>Check Out:</td>
+<td>
+</tr>
+<tr>
+<td>Day
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+<td>Month
+<select>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="apr">apr</option>
+<option value="may">may</option>
+<option value="jun">jun</option>
+<option value="jul">jul</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<td>Year
+<select>
+<option valuer="2015">2015</option>
+<option valuer="2016">2016</option>
+</select>
+</td><br>
+</tr></table><br>
+<table>
+<tr>
+<td>Adults(12+yrs)&nbsp&nbsp</td>
+   <td>Childrens(2-11yrs)&nbsp&nbsp
+       <td>Infants(0-2yrs)&nbsp&nbsp
+</tr>
+<tr>
+<td><select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<td><select>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<td><select>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</tr></select>
+</table><br>
+<table>
+<tr>
+<button style="background-color:#20B2AA;width:150;height:50;align:center"><b> Search Hotel</b></button>
+</tr>
+<table>
+<br>
+<br><br><br><br>
+<br><br><br><br>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<html>
+<head>
+    <title>bus</title>
+<style type="text/css">
+</style>
+ <script>
+function ValidateContactForm()
+{
+    var Leavingfrom = document.ContactForm.t1;
+    var Goingto = document.ContactForm.t2;
+   
+    if (Leavingfrom.value == "")
+    {
+        window.alert("Please enter From details.");
+        Leavingfrom.focus();
+        return false;
+    }
+    
+    if (Goingto.value == "")
+    {
+        window.alert("Please enter To details.");
+        Goingto.focus();
+        return false;
+    }
+}
+</script> 
+</head>
+<body>
+<h2><i>India's Largest Real Time Bus Tickets Booking Service</i></h2>
+<h4>--------Pay only bus tickets.<b>"ZERO"</B>Booking fees.-------</h4>
+
+<form method="post" name="ContactForm" style="border:4px groove; width:700px; height:390px; background-color:#D3D3D3;" onsubmit="return ValidateContactForm();">
+<table>
+<tr>
+<td>Leaving from:
+<input type="text" name="t1" value=""></td>
+<td>Going to:
+<input type="text" name="t2" value=""></td>
+</tr></table><br><br>
+<table>
+
+<tr>
+<td>Depart on:</td>
+</tr>
+<tr>
+<td>Day
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+<td>Month
+<select>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="apr">apr</option>
+<option value="may">may</option>
+<option value="jun">jun</option>
+<option value="jul">jul</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<td>Year
+<select>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+</select>
+</tr></table><br><br>
+<table>
+
+<tr>
+<td>Return on:</td>
+</tr>
+<tr>
+<td>Day
+<select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+<td>Month
+<select>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="apr">apr</option>
+<option value="may">may</option>
+<option value="jun">jun</option>
+<option value="jul">jul</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<td>Year
+<select>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+</select>
+</tr></table>
+<table>
+<tr><br><br>
+<button style="background-color:#708090;width:150;height:40"><b>Search Bus</b></button>
+</tr>
+</center>
+<table>
+</form>
+</body>
+</html>
